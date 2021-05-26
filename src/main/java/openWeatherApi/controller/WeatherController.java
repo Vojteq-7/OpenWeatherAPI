@@ -1,10 +1,14 @@
 package openWeatherApi.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import openWeatherApi.domain.CityName;
 import openWeatherApi.service.WeatherService;
+import openWeatherApi.service.WeatherServiceApi;
 import openWeatherApi.view.core.ConsoleLooper;
 import openWeatherApi.view.core.ConsoleView;
 
 import java.awt.*;
+import java.util.Map;
 import java.util.Scanner;
 
 

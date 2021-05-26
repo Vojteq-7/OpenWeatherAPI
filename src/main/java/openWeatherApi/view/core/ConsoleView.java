@@ -1,9 +1,9 @@
 package openWeatherApi.view.core;
 
-import java.awt.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Scanner;
+
 
 public class ConsoleView {
     private final Menu menu;

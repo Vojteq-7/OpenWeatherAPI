@@ -1,5 +1,6 @@
 package openWeatherApi.view.core;
 
+
 public final class MenuItem {
     public final String label;
     public final Runnable action;
@@ -9,4 +10,3 @@ public final class MenuItem {
         this.action = action;
     }
 }
-
