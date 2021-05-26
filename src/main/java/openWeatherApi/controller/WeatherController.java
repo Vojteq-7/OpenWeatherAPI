@@ -19,7 +19,7 @@ public class WeatherController {
         looper = new ConsoleLooper(view);
 
         menu.addMenuItem(new MenuItem(
-                "Wpisz nazwę miejscowości",
+                "Wyszukaj pogodę dla miasta.",
                 () ->
         ));
         menu.addMenuItem(new MenuItem(
