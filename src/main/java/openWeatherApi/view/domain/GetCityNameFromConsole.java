@@ -2,10 +2,10 @@ package openWeatherApi.view.domain;
 
 import java.util.Scanner;
 
-public class GetWeatherByCity {
+public class GetCityNameFromConsole {
     private final Scanner scanner;
 
-    public GetWeatherByCity(Scanner scanner) {
+    public GetCityNameFromConsole(Scanner scanner) {
         this.scanner = scanner;
     }
     public String AsForNameCity() {

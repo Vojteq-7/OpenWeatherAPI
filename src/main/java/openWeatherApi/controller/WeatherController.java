@@ -20,7 +20,11 @@ public class WeatherController {
 
         menu.addMenuItem(new MenuItem(
                 "Wyszukaj pogodę dla miasta.",
-                () ->
+                () -> {
+
+                }
+
+
         ));
         menu.addMenuItem(new MenuItem(
                 "Koniec",
